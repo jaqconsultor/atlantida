@@ -50,8 +50,13 @@ ColWidths_frmTableEditor.listCheckConstraints<|||>1<|||>200,420
 ColsVisible_frmTableEditor.listCheckConstraints<|||>1<|||>0,1
 ColPositions_frmTableEditor.listCheckConstraints<|||>1<|||>0,1
 ColSort_frmTableEditor.listCheckConstraints<|||>1<|||>-1,0
-SQLFile0<|||>1<|||>C:\atlantida\sql\aulascur_sos.sql
-SQLFile1<|||>1<|||>C:\atlantida\HeidiSQL_11.2_32_Portable\Backups\query-tab-2023-08-31_11-49-52-084.sql
+ExportSQL_CreateDatabases<|||>3<|||>1
+ExportSQL_CreateTables<|||>3<|||>1
+ExportSQL_Filenames<|||>1<|||>C:\a\aa.sql<{{{><}}}>
+SQLFile0<|||>1<|||>C:\Users\jaqconsultor\Desktop\aa.sql
+SQLFile1<|||>1<|||>C:\atlantida\HeidiSQL_11.2_32_Portable\Backups\query-tab-2023-10-29_18-00-08-280.sql
+SQLFile2<|||>1<|||>C:\atlantida\sql\aulascur_sos.sql
+SQLFile3<|||>1<|||>C:\atlantida\HeidiSQL_11.2_32_Portable\Backups\query-tab-2023-08-31_11-49-52-084.sql
 Servers\Unnamed\SessionCreated<|||>1<|||>2021-04-02 14:46:50
 Servers\Unnamed\Host<|||>1<|||>127.0.0.1
 Servers\Unnamed\WindowsAuth<|||>3<|||>0
@@ -85,9 +90,9 @@ Servers\Unnamed\SSL_CA<|||>1<|||>
 Servers\Unnamed\SSL_Cipher<|||>1<|||>
 Servers\Unnamed\IgnoreDatabasePattern<|||>1<|||>
 Servers\Unnamed\ServerVersionFull<|||>1<|||>10.2.37-MariaDB - mariadb.org binary distribution
-Servers\Unnamed\ConnectCount<|||>3<|||>17
+Servers\Unnamed\ConnectCount<|||>3<|||>19
 Servers\Unnamed\ServerVersion<|||>3<|||>100237
-Servers\Unnamed\LastConnect<|||>1<|||>2023-10-29 17:58:07
+Servers\Unnamed\LastConnect<|||>1<|||>2023-10-30 14:18:45
 Servers\Unnamed\lastUsedDB<|||>1<|||>atlantida
 Servers\Unnamed\RefusedCount<|||>3<|||>3
 Servers\Unnamed\QueryHistory\3<|||>1<|||>2023-10-29 18:11:49|atlantida|0|CREATE TABLE `contratos` (<{{{><}}}>	`id` INT(11) NOT NULL AUTO_INCREMENT,<{{{><}}}>	`Nacionalidad_Titular` VARCHAR(2) NOT NULL COLLATE 'utf8mb4_general_ci',<{{{><}}}>	`Cedula_Titular` INT(20) NOT NULL COLLATE 'utf8mb4_general_ci',<{{{><}}}>	`Nombre_TItular_Beneficiario` VARCHAR(100) NOT NULL COLLATE 'utf8mb4_general_ci',<{{{><}}}>	`Apellido_TItular_Beneficiario` VARCHAR(100) NOT NULL COLLATE 'utf8mb4_general_ci',<{{{><}}}>	`Sexo_Titular_Beneficiario` VARCHAR(2) NOT NULL COLLATE 'utf8mb4_general_ci',<{{{><}}}>	`Fecha_Nacimiento_Titular_Beneficiario` VARCHAR(2) NOT NULL COLLATE 'utf8mb4_general_ci',<{{{><}}}>	`Parentesco` VARCHAR(20) NOT NULL COLLATE 'utf8mb4_general_ci',<{{{><}}}>	`Nombre_Agente_Recaudador` VARCHAR(60) NOT NULL COLLATE 'utf8mb4_general_ci',<{{{><}}}>	`Tipo_de_Cuenta` VARCHAR(2) NOT NULL COLLATE 'utf8mb4_general_ci',<{{{><}}}>	`Numero_de_Cuenta` VARCHAR(20) NOT NULL COLLATE 'utf8mb4_general_ci',<{{{><}}}>	`Tipo_de_Vencimiento` VARCHAR(1) NOT NULL COLLATE 'utf8mb4_general_ci',<{{{><}}}>	`Codigo_Empresa` VARCHAR(2) NOT NULL COLLATE 'utf8mb4_general_ci',<{{{><}}}>	`Codigo_Sucursal` VARCHAR(2) NOT NULL COLLATE 'utf8mb4_general_ci',<{{{><}}}>	`Numero_de_Telefono` VARCHAR(13) NOT NULL COLLATE 'utf8mb4_general_ci',<{{{><}}}>	`Correo_Electronico` VARCHAR(13) NOT NULL COLLATE 'utf8mb4_general_ci',<{{{><}}}>	`Codigo_Plan_en_SISER` VARCHAR(3) NOT NULL COLLATE 'utf8mb4_general_ci',<{{{><}}}>	`Codigo_Productor_Asesor` VARCHAR(4) NOT NULL COLLATE 'utf8mb4_general_ci',<{{{><}}}>	`Estado` VARCHAR(1) NOT NULL COLLATE 'utf8mb4_general_ci',<{{{><}}}>	PRIMARY KEY (`id`) USING BTREE<{{{><}}}>)<{{{><}}}>COLLATE='utf8mb4_general_ci'<{{{><}}}>ENGINE=InnoDB<{{{><}}}>;<{{{><}}}><{{{><}}}><{{{><}}}><{{{><}}}><{{{><}}}><{{{><}}}><{{{><}}}><{{{><}}}><{{{><}}}><{{{><}}}><{{{><}}}>

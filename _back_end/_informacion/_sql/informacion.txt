@@ -1,0 +1,8 @@
+
+- campos adicionales
+*user_data-id* 
+( es el id del usuario que esta registrado en el sistema, que quiere migrar la data para el sistema en la nube ) 
+
+*usercreated_at* ( usuario quien creo el registro )
+
+*userudate_at* ( ultimo usuario quien modifico el registro )

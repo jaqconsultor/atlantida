@@ -20,12 +20,14 @@ export class CrudService {
 
   BASE: string = "http://localhost:8383/aulascursosya/"
 
+  //http://localhost:8383/contratos/listar.php
+
   // Empleado
-  API: string ='http://localhost:8383/empleados/agregar.php';
-  APIC: string ='http://localhost:8383/empleados/consultar.php';
-  APIM: string ='http://localhost:8383/empleados/modificar.php';
-  APIE: string ='http://localhost:8383/empleados/eliminar.php';
-  APIL: string ='http://localhost:8383/empleados/listar.php';
+  API: string ='http://localhost:8383/contratos/agregar.php';
+  APIC: string ='http://localhost:8383/contratos/consultar.php';
+  APIM: string ='http://localhost:8383/contratos/modificar.php';
+  APIE: string ='http://localhost:8383/contratos/eliminar.php';
+  APIL: string ='http://localhost:8383/contratos/listar.php';
 
   //http://localhost:8383/aulascursosya/
       

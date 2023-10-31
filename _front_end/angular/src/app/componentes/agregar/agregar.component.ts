@@ -17,7 +17,28 @@ export class AgregarComponent implements OnInit {
 
     this.formularioGrupo = this.formulario.group({
       id: [''],
-      nombre: ['']
+      Nacionalidad_Titular: [''],
+      Cedula_Titular: [''],
+      Nombre_TItular_Beneficiario: [''],
+      Apellido_TItular_Beneficiario: [''],
+      Estado_Civil: [''],
+      Sexo_Titular_Beneficiario: [''],
+      Fecha_Nacimiento_Titular_Beneficiario: [''],
+      Parentesco: [''],
+      Nombre_Agente_Recaudador: [''],
+      Tipo_de_Cuenta: [''],
+      Numero_de_Cuenta: [''],
+      Codigo_Cia_Seguro: [''],
+      Tipo_de_Vencimiento: [''],
+      Codigo_Empresa: [''],
+      Codigo_Sucursal: [''],
+      Numero_de_Telefono: [''],
+      Correo_Electronico: [''],
+      Codigo_Plan_en_SISER: [''],
+      Codigo_Productor_Asesor: [''],
+      Estado: [''],
+      Estado_Observacion: ['']
+
     });
    
 
@@ -28,7 +49,7 @@ export class AgregarComponent implements OnInit {
 
   enviardatos(): void {
     this.crudServicio.AgregarEmpleado(this.formularioGrupo.value).subscribe(resutl => {
-      this.ruta.navigateByUrl('/listar');
+      this.ruta.navigateByUrl('/');
     });
 
   }

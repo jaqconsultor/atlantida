@@ -1,1 +1,1 @@
-explorer http://localhost:8383/empleados/listar.php
+explorer http://localhost:8383/formularios/contratos/listar.php

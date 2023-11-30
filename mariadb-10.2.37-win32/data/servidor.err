@@ -22,3 +22,27 @@
 2023-11-27 20:23:59 4820 [Note] Added new Master_info '' to hash table
 2023-11-27 20:23:59 4820 [Note] C:\atlantida\mariadb-10.2.37-win32\bin\mysqld.exe: ready for connections.
 Version: '10.2.37-MariaDB'  socket: ''  port: 8189  mariadb.org binary distribution
+2023-11-27 21:08:21 1780 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2023-11-27 21:08:21 1780 [Note] InnoDB: Uses event mutexes
+2023-11-27 21:08:21 1780 [Note] InnoDB: Compressed tables use zlib 1.2.11
+2023-11-27 21:08:21 1780 [Note] InnoDB: Number of pools: 1
+2023-11-27 21:08:21 1780 [Note] InnoDB: Using SSE2 crc32 instructions
+2023-11-27 21:08:21 1780 [Note] InnoDB: Initializing buffer pool, total size = 384M, instances = 1, chunk size = 128M
+2023-11-27 21:08:21 1780 [Note] InnoDB: Completed initialization of buffer pool
+2023-11-27 21:08:21 1780 [Note] InnoDB: Highest supported file format is Barracuda.
+2023-11-27 21:08:21 1780 [Note] InnoDB: Starting crash recovery from checkpoint LSN=51773884
+2023-11-27 21:08:21 1780 [Note] InnoDB: 128 out of 128 rollback segments are active.
+2023-11-27 21:08:21 1780 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2023-11-27 21:08:21 1780 [Note] InnoDB: Creating shared tablespace for temporary tables
+2023-11-27 21:08:21 1780 [Note] InnoDB: Setting file '.\ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2023-11-27 21:08:21 1780 [Note] InnoDB: File '.\ibtmp1' size is now 12 MB.
+2023-11-27 21:08:21 1780 [Note] InnoDB: Waiting for purge to start
+2023-11-27 21:08:21 1780 [Note] InnoDB: 5.7.33 started; log sequence number 51773893
+2023-11-27 21:08:21 3212 [Note] InnoDB: Loading buffer pool(s) from c:\atlantida\mariadb-10.2.37-win32\data\ib_buffer_pool
+2023-11-27 21:08:21 3212 [Note] InnoDB: Buffer pool(s) load completed at 231127 21:08:21
+2023-11-27 21:08:21 1780 [Note] Plugin 'FEEDBACK' is disabled.
+2023-11-27 21:08:21 1780 [Note] Server socket created on IP: '::'.
+2023-11-27 21:08:22 1780 [Note] Reading of all Master_info entries succeeded
+2023-11-27 21:08:22 1780 [Note] Added new Master_info '' to hash table
+2023-11-27 21:08:22 1780 [Note] C:\atlantida\mariadb-10.2.37-win32\bin\mysqld.exe: ready for connections.
+Version: '10.2.37-MariaDB'  socket: ''  port: 8189  mariadb.org binary distribution
